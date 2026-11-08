@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    margin: 0;
+}
+
+#container {
+    width: 1000px;
+    margin: auto;
+    background: pink;
+}
+
+header {
+    background: gold;
+    padding: 20px;
+}
+
+h1 {
+    font: 35px italic Arial, sans-serif;
+    text-decoration: underline wavy;
+    color: #5f00b7;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+nav {
+    float: left;
+    width: 25%;
+}
+
+menu {
+    list-style: none;
+    padding: 0;
+}
+
+main {
+    float: left;
+    background: #bf91eb;
+    width: 75%;
+    min-height: 500px;
+    padding: 10px 30px;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 1px 5px black;
+}
+
+.cehrayi {
+    color: #fdd1d8;
+}
+
+.benovseyi {
+    color: #470089;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background: gold;
+    font: bold .8em Arial, sans-serif;
+    color: aliceblue;
+    padding: 15px;
+    text-shadow: 3px 1px 5px black;
+}

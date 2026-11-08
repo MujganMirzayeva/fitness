@@ -1,0 +1,20 @@
+header {
+    height: 137px;
+    background: linear-gradient(to bottom, #d5d5d5, #FFF, #FFF, #FFF);
+}
+main {
+    height: 1280px;
+    background: #fff url('../img/mainbg.jpg') repeat-x;
+}
+footer {
+    height: 82px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 940px;
+        margin: auto;
+    }
+}

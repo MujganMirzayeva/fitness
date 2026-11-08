@@ -1,0 +1,172 @@
+:root{
+    --yasil:#a1c927;
+    --qirmizi:#fd634d;
+}
+header{
+    position: relative;
+    height: 100vh;
+    background: url(../img/headerbg.jpg) 55% 50%/cover;
+}
+nav{
+    text-align: center;
+    padding:4.4vh 3vw;
+}
+menu li a{
+    font: .85em 'Avenir Next Rounded Std';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#title{
+    width:100%;
+    text-align: center;
+    position: absolute;
+    bottom: 16vh;
+}
+h1,h2,h5,h6{
+    text-transform: uppercase;
+}
+h1,h5{
+    font-family: 'Myriad Pro';
+    font-weight: normal;
+}
+h1{font-size: 2em;}
+h2{font: 2em 'Open Sans';}
+h5{
+    font-size: 1em;
+    letter-spacing: 3px;
+}
+h6{
+    font: 1em Montserrat;
+    letter-spacing: 2px;
+}
+
+.bg-yasil{background-color: var(--yasil);}
+.bg-qirmizi{background-color: var(--qirmizi);}
+.bg-ag{background-color: #fff;}
+.txt-yasil{color:var(--yasil);}
+.txt-qirmizi{color: var(--qirmizi);}
+.txt-ag{color: #fff;}
+.vh50{height: 50vh;}
+.artpad{padding: 50px 40px;}
+
+#col4 { padding: 64px 0}
+#col4 article { padding: 32px 10px}
+#fitnessfirst { background: url('../img/fitnessfirst.jpg') center/cover; }
+#yourbody { background: url('../img/yourbody.jpg') center/cover; }
+#lifestyle { background: url('../img/lifestyle.jpg') center/cover; }
+#summeroffun { background: url('../img/summeroffun.jpg') center/cover; }
+#grape { background: url('../img/grape.jpg') center/cover; }
+#mango { background: url('../img/mango.jpg') center/cover; }
+
+.container {
+    background: #121212;
+    color: #888;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-family: sans-serif;
+}
+
+.col {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.container h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #aaa;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container input {
+    padding: 10px 12px;
+    background: #fff;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.container button {
+    padding: 10px;
+    background: #7cb342;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.socials a {
+    color: #fff;
+    background: #1e88e5;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+    nav {
+        text-align: initial;
+    }
+    menu { 
+        float: right;
+    }
+    menu li {
+        display: inline-block;
+        padding: 0 2vw;
+    }
+    #title {
+        width: initial;
+        text-align: right;
+        padding: 0 0 0 7.5vw
+    }
+    h1 { font-size: 2.5em }
+    .row::after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+    .col25 { width: 25% }
+    .col33 { width: 33.33% }
+    .col66 { width: 66.66% }
+    .fleft { float: left }
+    .fright { float: right }
+    .footer{
+        flex-direction: column;
+    }
+     .col {
+        max-width: 100%;
+    }
+}

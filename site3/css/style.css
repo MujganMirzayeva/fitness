@@ -1,0 +1,31 @@
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    nav {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    menu {
+        order: -1;
+        display: flex;
+        gap: 20px
+    }
+}
